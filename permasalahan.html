@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Permasalahan di Sekitarku | The Odds Are Not Equal</title>
+    <link rel="stylesheet" href="permasalahan.css">
+    <link rel="stylesheet" href="SDGS.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="header tik(2).png" alt="header">
+    </div>
+
+    <div class="topnav">
+
+    <a href="index.html">
+        <img src="TOPNAV.png" alt="Beranda">
+    </a>
+
+    <div class="dropdown">
+        <button class="dropbtn">
+            <img src="buttons.png" alt="SDGs Pilihanku">
+        </button>
+
+        <div class="dropdown-content">
+
+            <a href="sdg.html">
+                <img src="SUBNAV.png" alt="Mengenal SDG 5">
+            </a>
+
+            <a href="permasalahan.html">
+                <img src="SUBNAV3.png" alt="Permasalahan di Sekitarku">
+            </a>
+
+            <div class="dropdown-submenu">
+
+                <button class="submenu-trigger">
+                    <img src="SUBNAV (2).png" alt="Kerja Sama">
+                </button>
+
+                <div class="submenu-content">
+
+                    <a href="bilateral.html">
+                        <img src="SUBNAV (3).png" alt="Bilateral">
+                    </a>
+
+                    <a href="multilateral.html">
+                        <img src="SUBNAV (4).png" alt="Multilateral">
+                    </a>
+
+                    <a href="regional.html">
+                        <img src="SUBNAV (5).png" alt="Regional">
+                    </a>
+
+                    <a href="international.html">
+                        <img src="SUBNAV (6).png" alt="Internasional">
+                    </a>
+
+                </div>
+            </div>
+
+            <a href="pancasila.html">
+                <img src="SUBNAV (7).png" alt="Pancasila dalam SDGs">
+            </a>
+
+        </div>
+    </div>
+
+    <div class="dropdown">
+
+        <button class="dropbtn">
+            <img src="pb.png" alt="Pembangunan Berkelanjutan">
+        </button>
+
+        <div class="dropdown-content">
+
+            <a href="ips.html">
+                <img src="10.png" alt="Materi IPS">
+            </a>
+
+            <a href="poster.html">
+                <img src="11.png" alt="Poster">
+            </a>
+
+        </div>
+    </div>
+
+    <a href="about.html">
+        <img src="12.png" alt="About Me">
+    </a>
+
+    <a href="pustaka.html">
+        <img src="13.png" alt="Daftar Pustaka">
+    </a>
+
+</div>
+    <div class="main">
+
+        <div class="intro">
+            <p class="label">REALITA DI SEKITAR KITA</p>
+            <h2>Ketidaksetaraan Ada di Dekat Kita.</h2>
+            <p>
+                Ketidakadilan gender tidak selalu terlihat dalam bentuk aturan besar.
+                Sering kali, bias dan stereotip muncul dalam kebiasaan sehari-hari di sekolah,
+                di rumah, maupun di ruang publik yang dianggap wajar padahal merugikan.
+            </p>
+        </div>
+
+        <div class="box">
+            <div class="progress-top">
+                <div>
+                    <h2>Arsip Kasus di Lingkungan Sekitar</h2>
+                    <p>Pilih kategori di bawah untuk melihat bentuk ketimpangan yang sering terjadi di sekitar kita.</p>
+                </div>
+
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="sekolah">Sekolah</button>
+                    <button class="filter-btn" data-filter="rumah">Keluarga</button>
+                    <button class="filter-btn" data-filter="publik">Ruang Publik</button>
+                </div>
+            </div>
+
+            <div class="case-grid" id="caseGrid">
+                <div class="case-card" data-category="sekolah">
+                    <span class="case-tag">SEKOLAH • KEPEMIMPINAN</span>
+                    <h3>Bias Pemilihan Ketua OSIS & Organisasi</h3>
+                    <p>
+                        Siswa laki-laki sering kali otomatis dianggap lebih tegas untuk menjadi ketua,
+                        sementara siswi perempuan lebih sering diarahkan hanya ke posisi sekretaris atau bendahara.
+                    </p>
+                </div>
+
+                <div class="case-card" data-category="rumah">
+                    <span class="case-tag">KELUARGA • BEBAN GANDA</span>
+                    <h3>Pembagian Tugas Rumah yang Tidak Seimbang</h3>
+                    <p>
+                        Anak perempuan sering dituntut membantu pekerjaan domestik seperti memasak dan membersihkan rumah,
+                        sedangkan anak laki-laki dibebaskan dari tanggung jawab tersebut.
+                    </p>
+                </div>
+
+                <div class="case-card" data-category="sekolah">
+                    <span class="case-tag">SEKOLAH • STEREOTIP MINAT</span>
+                    <h3>Pelabelan Jurusan & Ekstrakurikuler</h3>
+                    <p>
+                        Anggapan bahwa bidang teknologi, olahraga berat, atau teknik hanya cocok untuk laki-laki
+                        membuat banyak siswi ragu mengejar minat dan bakat mereka.
+                    </p>
+                </div>
+
+                <div class="case-card" data-category="publik">
+                    <span class="case-tag">RUANG PUBLIK • KEAMANAN</span>
+                    <h3>Pelecehan Verbal & Victim Blaming</h3>
+                    <p>
+                        Catcalling di jalanan dan komentar merendahkan di media sosial masih sering terjadi,
+                        dan korban justru sering disalahkan atas cara berpakaian mereka.
+                    </p>
+                </div>
+
+                <div class="case-card" data-category="rumah">
+                    <span class="case-tag">KELUARGA • KESEMPATAN</span>
+                    <h3>Prioritas Pendidikan & Karier</h3>
+                    <p>
+                        Di beberapa lingkungan, pendidikan tinggi untuk anak perempuan masih dianggap kurang penting
+                        dibandingkan anak laki-laki karena stereotip peran masa depan.
+                    </p>
+                </div>
+
+                <div class="case-card" data-category="publik">
+                    <span class="case-tag">DUNIA KERJA • UPAH</span>
+                    <h3>Kesenjangan Upah & Peluang Promosi</h3>
+                    <p>
+                        Pekerja perempuan menghadapi hambatan tak terlihat (glass ceiling) saat melamar posisi
+                        manajerial serta menerima upah rata-rata lebih rendah untuk beban kerja yang sama.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h2>Buka Kartu: Mitos vs. Fakta</h2>
+            <p>
+                Kartu yang sama, tapi aturan sering dibedakan. <strong>Klik setiap kartu bermain di bawah</strong> untuk membongkar mitos yang sering beredar di masyarakat!
+            </p>
+
+            <div class="deck-grid">
+                <div class="playing-card" onclick="this.classList.toggle('revealed')">
+                    <div class="card-corner top-left">♠</div>
+                    <div class="card-front">
+                        <span class="card-badge">MITOS #01</span>
+                        <h3>"Perempuan terlalu emosional untuk jadi pemimpin."</h3>
+                        <small>Klik kartu untuk lihat fakta →</small>
+                    </div>
+                    <div class="card-back">
+                        <span class="card-badge fact">FAKTA</span>
+                        <p>Empati dan kecerdasan emosional justru membuat pemimpin lebih efektif dalam mengambil keputusan dan membangun tim yang solid.</p>
+                    </div>
+                    <div class="card-corner bottom-right">♠</div>
+                </div>
+
+                <div class="playing-card" onclick="this.classList.toggle('revealed')">
+                    <div class="card-corner top-left">♥</div>
+                    <div class="card-front">
+                        <span class="card-badge">MITOS #02</span>
+                        <h3>"Pekerjaan rumah tangga adalah kodrat perempuan."</h3>
+                        <small>Klik kartu untuk lihat fakta →</small>
+                    </div>
+                    <div class="card-back">
+                        <span class="card-badge fact">FAKTA</span>
+                        <p>Memasak dan membersihkan rumah adalah keterampilan hidup dasar (basic life skills) yang wajib dimiliki baik laki-laki maupun perempuan.</p>
+                    </div>
+                    <div class="card-corner bottom-right">♥</div>
+                </div>
+
+                <div class="playing-card" onclick="this.classList.toggle('revealed')">
+                    <div class="card-corner top-left">♦</div>
+                    <div class="card-front">
+                        <span class="card-badge">MITOS #03</span>
+                        <h3>"Kesetaraan gender berarti merugikan laki-laki."</h3>
+                        <small>Klik kartu untuk lihat fakta →</small>
+                    </div>
+                    <div class="card-back">
+                        <span class="card-badge fact">FAKTA</span>
+                        <p>Kesetaraan gender bukan tentang mengalahkan satu pihak, melainkan memastikan semua orang punya peluang dan hak yang adil tanpa diskriminasi.</p>
+                    </div>
+                    <div class="card-corner bottom-right">♦</div>
+                </div>
+
+                 <div class="playing-card" onclick="this.classList.toggle('revealed')">
+                    <div class="card-corner top-left">♣</div>
+                    <div class="card-front">
+                        <span class="card-badge">MITOS #04</span>
+                        <h3>"Laki-laki tidak boleh menangis atau terlihat lemah."</h3>
+                        <small>Klik kartu untuk lihat fakta →</small>
+                    </div>
+                    <div class="card-back">
+                        <span class="card-badge fact">FAKTA</span>
+                        <p>Stereotip gender juga merugikan laki-laki dengan menekan kesehatan mental mereka. Mengekspresikan emosi adalah hal yang manusiawi.</p>
+                    </div>
+                    <div class="card-corner bottom-right">♣</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="message">
+            <h2>Bagaimana Dunia Bekerja Sama Mengatasinya?</h2>
+            <p>
+                Permasalahan kesetaraan gender tidak bisa diselesaikan sendirian.
+                Negara-negara di dunia menjalin berbagai bentuk kerja sama untuk mendorong perubahan nyata.
+            </p>
+            <a href="bilateral.html" class="button">Lihat Bentuk Kerja Sama →</a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>THE ODDS ARE NOT EQUAL | FANIA/95/33</p>
+    </div>
+
+    <div class="ash-container" id="ashContainer"></div>
+
+    <script>
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const caseCards = document.querySelectorAll('.case-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const selected = btn.dataset.filter;
+
+                caseCards.forEach(card => {
+                    if (selected === 'all' || card.dataset.category === selected) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+        const ashContainer = document.getElementById('ashContainer');
+    if (ashContainer) {
+        for (let i = 0; i < 45; i++) {
+            const ash = document.createElement('div');
+            const isEmber = Math.random() < 0.25;
+            ash.classList.add('ash-particle', isEmber ? 'ember' : 'flake');
+
+            const size = isEmber ? (Math.random() * 4 + 2) : (Math.random() * 6 + 3);
+            ash.style.width = size + 'px';
+            ash.style.height = (size * (Math.random() * 0.6 + 0.5)) + 'px';
+            ash.style.left = (Math.random() * 100) + 'vw';
+            ash.style.animationDuration = (Math.random() * 6 + 5) + 's';
+            ash.style.animationDelay = (Math.random() * 8) + 's';
+            ashContainer.appendChild(ash);
+        }
+    }
+    </script>
+   
+</body>
+</html>

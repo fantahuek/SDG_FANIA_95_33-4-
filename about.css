@@ -1,0 +1,214 @@
+.flip-pass-btn {
+    padding: 10px 18px;
+    background: #181818;
+    color: #f0ede5;
+    border: 2px solid #f0ede5;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 #9e1b1b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.flip-pass-btn:hover {
+    background: #9e1b1b;
+    transform: translateY(-2px);
+}
+
+.press-pass {
+    max-width: 720px;
+    margin: 26px auto 0 auto;
+    padding: 28px 32px;
+    background: #141414;
+    border: 3px solid #f0ede5;
+    border-radius: 18px;
+    box-shadow: 10px 10px 0 #9e1b1b;
+    transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.press-pass.flipped {
+    background: #1d1515;
+    border-color: #ffffff;
+    box-shadow: 10px 10px 0 #f0ede5;
+}
+
+.pass-back {
+    display: none;
+}
+
+.press-pass.flipped .pass-front {
+    display: none;
+}
+
+.press-pass.flipped .pass-back {
+    display: block;
+}
+
+.pass-top,
+.pass-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #f0ede5;
+}
+
+.pass-top {
+    padding-bottom: 14px;
+    margin-bottom: 22px;
+    border-bottom: 2px dashed rgba(240, 237, 229, 0.4);
+}
+
+.pass-bottom {
+    padding-top: 14px;
+    margin-top: 22px;
+    border-top: 2px solid rgba(240, 237, 229, 0.4);
+    color: #c7c2b7;
+}
+
+.pass-body {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.pass-avatar {
+    width: 135px;
+    height: 165px;
+    background: #1a1a1a;
+    border: 3px solid #f0ede5;
+    border-radius: 14px;
+    box-shadow: 5px 5px 0 #000;
+    overflow: hidden;
+    flex-shrink: 0;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.pass-avatar:hover {
+    transform: scale(1.08) rotate(-2deg);
+    border-color: #ffffff;
+    box-shadow: 8px 8px 0 #9e1b1b;
+}
+
+.pass-avatar img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    transition: transform 0.25s ease;
+}
+
+.pass-avatar:hover img {
+    transform: scale(1.05);
+}
+
+.pass-details {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.detail-row {
+    padding: 12px 14px;
+    background: #1b1b1b;
+    border: 1px solid rgba(240, 237, 229, 0.3);
+    border-radius: 10px;
+}
+
+.d-label {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #f2c230;
+    margin-bottom: 4px;
+}
+
+.detail-row strong {
+    color: #f0ede5;
+    font-size: 15px;
+}
+
+.pass-back h3 {
+    color: #f0ede5;
+    font-size: 22px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.pass-back p {
+    color: #d6d1c4;
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.why-tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 22px 0;
+}
+
+.why-btn {
+    padding: 14px 16px;
+    background: #181818;
+    color: #f0ede5;
+    border: 2px solid rgba(240, 237, 229, 0.45);
+    border-radius: 12px;
+    box-shadow: 4px 4px 0 #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.why-btn:hover {
+    border-color: #f0ede5;
+    transform: translateY(-2px);
+}
+
+.why-btn.active {
+    background: #9e1b1b;
+    border-color: #ffffff;
+    box-shadow: 5px 5px 0 #f0ede5;
+}
+
+.why-story-box {
+    padding: 26px 30px;
+    background: #141414;
+    border: 2px solid #f0ede5;
+    border-left: 10px solid #f0ede5;
+    border-radius: 16px;
+    box-shadow: 6px 6px 0 #000;
+}
+
+.why-story-box.story-pop {
+    animation: storyFade 0.25s ease;
+}
+
+@keyframes storyFade {
+    0% { opacity: 0.45; transform: translateY(4px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.why-story-box h3 {
+    color: #f0ede5;
+    font-size: 20px;
+    margin: 10px 0 12px 0;
+}
+
+.why-story-box p {
+    color: #d6d1c4;
+    font-size: 14px;
+    line-height: 1.85;
+    margin: 0;
+}

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kerja Sama Multilateral | The Odds Are Not Equal</title>
+    <link rel="stylesheet" href="SDGS.css">
+    <link rel="stylesheet" href="multilateral.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="header tik(2).png" alt="header">
+    </div>
+
+    <div class="topnav">
+
+    <a href="index.html">
+        <img src="TOPNAV.png" alt="Beranda">
+    </a>
+
+    <div class="dropdown">
+        <button class="dropbtn">
+            <img src="buttons.png" alt="SDGs Pilihanku">
+        </button>
+
+        <div class="dropdown-content">
+
+            <a href="sdg.html">
+                <img src="SUBNAV.png" alt="Mengenal SDG 5">
+            </a>
+
+            <a href="permasalahan.html">
+                <img src="SUBNAV3.png" alt="Permasalahan di Sekitarku">
+            </a>
+
+            <div class="dropdown-submenu">
+
+                <button class="submenu-trigger">
+                    <img src="SUBNAV (2).png" alt="Kerja Sama">
+                </button>
+
+                <div class="submenu-content">
+
+                    <a href="bilateral.html">
+                        <img src="SUBNAV (3).png" alt="Bilateral">
+                    </a>
+
+                    <a href="multilateral.html">
+                        <img src="SUBNAV (4).png" alt="Multilateral">
+                    </a>
+
+                    <a href="regional.html">
+                        <img src="SUBNAV (5).png" alt="Regional">
+                    </a>
+
+                    <a href="international.html">
+                        <img src="SUBNAV (6).png" alt="Internasional">
+                    </a>
+
+                </div>
+            </div>
+
+            <a href="pancasila.html">
+                <img src="SUBNAV (7).png" alt="Pancasila dalam SDGs">
+            </a>
+
+        </div>
+    </div>
+
+    <div class="dropdown">
+
+        <button class="dropbtn">
+            <img src="pb.png" alt="Pembangunan Berkelanjutan">
+        </button>
+
+        <div class="dropdown-content">
+
+            <a href="ips.html">
+                <img src="10.png" alt="Materi IPS">
+            </a>
+
+            <a href="poster.html">
+                <img src="11.png" alt="Poster">
+            </a>
+
+        </div>
+    </div>
+
+    <a href="about.html">
+        <img src="12.png" alt="About Me">
+    </a>
+
+    <a href="pustaka.html">
+        <img src="13.png" alt="Daftar Pustaka">
+    </a>
+
+</div>
+
+    <div class="main">
+
+        <div class="intro">
+            <p class="label">BENTUK KERJA SAMA • 02</p>
+            <h2>Kerja Sama Multilateral dalam SDG 5.</h2>
+            <p>
+                Kerja sama multilateral adalah kerja sama yang melibatkan
+                <strong>tiga negara atau lebih</strong> tanpa dibatasi oleh wilayah geografis tertentu,
+                biasanya bernaung di bawah organisasi internasional seperti <strong>Perserikatan Bangsa-Bangsa (PBB)</strong>
+                untuk mengatasi isu global secara bersama-sama.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>Ciri Utama Kerja Sama Multilateral</h2>
+            <p>
+                Berbeda dengan kerja sama bilateral yang hanya melibatkan dua negara, forum multilateral
+                menyatukan banyak negara dari berbagai benua untuk menyusun aturan, konvensi, dan standar global
+                yang berlaku bagi seluruh anggotanya.
+            </p>
+
+            <div class="goals">
+                <div class="goal">3+ NEGARA</div>
+                <div class="goal">SKALA GLOBAL</div>
+                <div class="goal">FORUM PBB</div>
+                <div class="goal">KONVENSI BERSAMA</div>
+                <div class="goal">LINTAS BENUA</div>
+            </div>
+        </div>
+           <div class="box">
+            <div class="progress-top">
+                <div>
+                    <h2>Simulasi Sidang Majelis Umum PBB</h2>
+                    <p>Dalam forum multilateral, keputusan diambil bersama oleh banyak negara. <strong>Klik suara untuk 5 delegasi negara di bawah</strong> untuk mengesahkan Resolusi Kesetaraan Gender Global!</p>
+                </div>
+                <button class="reset-vote-btn" id="resetVotesBtn">↺ Ulangi Sidang</button>
+            </div>
+
+            <div class="resolution-banner">
+                <span class="case-tag">RANCANGAN RESOLUSI PBB • A/RES/SDG5</span>
+                <h3>"Menjamin Upah Setara, Perlindungan Hukum, dan Akses Kepemimpinan Perempuan di Seluruh Negara Anggota"</h3>
+            </div>
+
+            <div class="delegate-list" id="delegateList">
+                <div class="delegate-row" data-vote="">
+                    <div class="delegate-info">
+                        <strong>🇮🇩 Delegasi Indonesia</strong>
+                        <small>Mewakili Asia Tenggara & Presidensi G20</small>
+                    </div>
+                    <div class="vote-btns">
+                        <button class="v-btn" data-choice="yes">SETUJU</button>
+                        <button class="v-btn" data-choice="abstain">ABSTAIN</button>
+                        <button class="v-btn" data-choice="no">TOLAK</button>
+                    </div>
+                </div>
+
+                <div class="delegate-row" data-vote="">
+                    <div class="delegate-info">
+                        <strong>🇸🇪 Delegasi Swedia</strong>
+                        <small>Mewakili Eropa Utara</small>
+                    </div>
+                    <div class="vote-btns">
+                        <button class="v-btn" data-choice="yes">SETUJU</button>
+                        <button class="v-btn" data-choice="abstain">ABSTAIN</button>
+                        <button class="v-btn" data-choice="no">TOLAK</button>
+                    </div>
+                </div>
+
+                <div class="delegate-row" data-vote="">
+                    <div class="delegate-info">
+                        <strong>🇰🇪 Delegasi Kenya</strong>
+                        <small>Mewakili Kawasan Afrika Timur</small>
+                    </div>
+                    <div class="vote-btns">
+                        <button class="v-btn" data-choice="yes">SETUJU</button>
+                        <button class="v-btn" data-choice="abstain">ABSTAIN</button>
+                        <button class="v-btn" data-choice="no">TOLAK</button>
+                    </div>
+                </div>
+
+                <div class="delegate-row" data-vote="">
+                    <div class="delegate-info">
+                        <strong>🇧🇷 Delegasi Brasil</strong>
+                        <small>Mewakili Amerika Latin</small>
+                    </div>
+                    <div class="vote-btns">
+                        <button class="v-btn" data-choice="yes">SETUJU</button>
+                        <button class="v-btn" data-choice="abstain">ABSTAIN</button>
+                        <button class="v-btn" data-choice="no">TOLAK</button>
+                    </div>
+                </div>
+
+                <div class="delegate-row" data-vote="">
+                    <div class="delegate-info">
+                        <strong>🇯🇵 Delegasi Jepang</strong>
+                        <small>Mewakili Asia Timur</small>
+                    </div>
+                    <div class="vote-btns">
+                        <button class="v-btn" data-choice="yes">SETUJU</button>
+                        <button class="v-btn" data-choice="abstain">ABSTAIN</button>
+                        <button class="v-btn" data-choice="no">TOLAK</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tally-board">
+                <div class="tally-numbers">
+                    <span class="t-yes">SETUJU: <strong id="countYes">0</strong></span>
+                    <span class="t-abs">ABSTAIN: <strong id="countAbs">0</strong></span>
+                    <span class="t-no">TOLAK: <strong id="countNo">0</strong></span>
+                </div>
+                <div class="tally-verdict" id="tallyVerdict">
+                    Menunggu seluruh 5 delegasi memberikan suara...
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="progress-top">
+                <div>
+                    <h2>Mesin Cetak Arsip Multilateral PBB</h2>
+                    <p>Tekan tombol cetak di bawah untuk mengeluarkan lembaran fakta perjanjian internasional satu per satu!</p>
+                </div>
+                <button class="sign-btn" id="printFactBtn">🖨 Cetak Arsip Berikutnya (<span id="factCounter">1/4</span>)</button>
+            </div>
+
+            <div class="teleprinter-slip" id="teleprinterSlip">
+                <div class="slip-edge"></div>
+                <div class="slip-meta" id="slipCode">ARSIP PBB #01 • KONVENSI HUKUM</div>
+                <h3 id="slipTitle">Konvensi CEDAW (1979)</h3>
+                <p id="slipBody">
+                    Diikuti oleh 189 negara, CEDAW sering disebut sebagai piagam hak asasi perempuan internasional. Indonesia meratifikasinya melalui UU No. 7 Tahun 1984 untuk menghapus segala bentuk diskriminasi terhadap perempuan.
+                </p>
+                <div class="slip-footer" id="slipImpact">SKALA: 189 NEGARA ANGGOTA</div>
+            </div>
+        </div>
+
+        <div class="message">
+            <h2>Bagaimana dengan Kerja Sama di Kawasan Asia Tenggara?</h2>
+            <p>
+                Selain forum global yang melibatkan seluruh dunia, Indonesia juga menjalin kerja sama
+                dengan negara-negara tetangga dalam satu kawasan geografis.
+            </p>
+            <a href="regional.html" class="button">Lanjut ke Kerja Sama Regional →</a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>THE ODDS ARE NOT EQUAL | FANIA/95/33</p>
+    </div>
+
+    <span class="t-no">TOLAK: <strong id="countNo">0</strong></span>
+                </div>
+                <div class="tally-verdict" id="tallyVerdict">
+                    Menunggu seluruh 5 delegasi memberikan suara...
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="progress-top">
+                <div>
+                    <h2>Mesin Cetak Arsip Multilateral PBB</h2>
+                    <p>Tekan tombol cetak di bawah untuk mengeluarkan lembaran fakta perjanjian internasional satu per satu!</p>
+                </div>
+                <button class="sign-btn" id="printFactBtn">🖨 Cetak Arsip Berikutnya (<span id="factCounter">1/4</span>)</button>
+            </div>
+
+            <div class="teleprinter-slip" id="teleprinterSlip">
+                <div class="slip-edge"></div>
+                <div class="slip-meta" id="slipCode">ARSIP PBB #01 • KONVENSI HUKUM</div>
+                <h3 id="slipTitle">Konvensi CEDAW (1979)</h3>
+                <p id="slipBody">
+                    Diikuti oleh 189 negara, CEDAW sering disebut sebagai piagam hak asasi perempuan internasional. Indonesia meratifikasinya melalui UU No. 7 Tahun 1984 untuk menghapus segala bentuk diskriminasi terhadap perempuan.
+                </p>
+                <div class="slip-footer" id="slipImpact">SKALA: 189 NEGARA ANGGOTA</div>
+            </div>
+        </div>
+
+        <div class="message">
+            <h2>Bagaimana dengan Kerja Sama di Kawasan Asia Tenggara?</h2>
+            <p>
+                Selain forum global yang melibatkan seluruh dunia, Indonesia juga menjalin kerja sama
+                dengan negara-negara tetangga dalam satu kawasan geografis.
+            </p>
+            <a href="regional.html" class="button">Lanjut ke Kerja Sama Regional →</a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>THE ODDS ARE NOT EQUAL | FANIA/95/33</p>
+    </div>
+
+    <div class="ash-container" id="ashContainer"></div>
+
+    <script>
+        const delegateRows = document.querySelectorAll('.delegate-row');
+        const countYesEl = document.getElementById('countYes');
+        const countAbsEl = document.getElementById('countAbs');
+        const countNoEl = document.getElementById('countNo');
+        const verdictEl = document.getElementById('tallyVerdict');
+        const resetVotesBtn = document.getElementById('resetVotesBtn');
+
+        function updateTally() {
+            let yes = 0, abs = 0, no = 0, voted = 0;
+
+            delegateRows.forEach(row => {
+                const v = row.dataset.vote;
+                if (v === 'yes') { yes++; voted++; }
+                if (v === 'abstain') { abs++; voted++; }
+                if (v === 'no') { no++; voted++; }
+            });
+
+            countYesEl.textContent = yes;
+            countAbsEl.textContent = abs;
+            countNoEl.textContent = no;
+
+            if (voted < 5) {
+                verdictEl.textContent = 'Menunggu suara delegasi (' + voted + '/5 sudah memilih)...';
+                verdictEl.className = 'tally-verdict';
+            } else if (yes > no) {
+                verdictEl.textContent = '★ RESOLUSI DISAHKAN! Mayoritas negara sepakat memperkuat SDG 5.';
+                verdictEl.className = 'tally-verdict passed';
+            } else {
+                verdictEl.textContent = '✖ RESOLUSI TERTUNDA! Suara setuju belum mencapai mayoritas.';
+                verdictEl.className = 'tally-verdict failed';
+            }
+        }
+
+        delegateRows.forEach(row => {
+            const btns = row.querySelectorAll('.v-btn');
+            btns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    btns.forEach(b => b.classList.remove('picked'));
+                    btn.classList.add('picked');
+                    row.dataset.vote = btn.dataset.choice;
+                    updateTally();
+                });
+            });
+        });
+
+        resetVotesBtn.addEventListener('click', () => {
+            delegateRows.forEach(row => {
+                row.dataset.vote = '';
+                row.querySelectorAll('.v-btn').forEach(b => b.classList.remove('picked'));
+            });
+            updateTally();
+        });
+
+        const multilateralFacts = [
+            {
+                code: 'ARSIP PBB #01 • KONVENSI HUKUM',
+                title: 'Konvensi CEDAW (1979)',
+                body: 'Diikuti oleh 189 negara, CEDAW sering disebut sebagai piagam hak asasi perempuan internasional. Indonesia meratifikasinya melalui UU No. 7 Tahun 1984 untuk menghapus segala bentuk diskriminasi terhadap perempuan.',
+                impact: 'SKALA: 189 NEGARA ANGGOTA'
+            },
+            {
+                code: 'ARSIP PBB #02 • BADAN KHUSUS',
+                title: 'UN Women (United Nations Entity for Gender Equality)',
+                body: 'Badan PBB yang bekerja sama dengan pemerintah dan masyarakat sipil di lebih dari 100 negara untuk merancang kebijakan perlindungan perempuan, kepemimpinan politik, dan pemberdayaan ekonomi.',
+                impact: 'SKALA: 193 NEGARA PBB'
+            },
+            {
+                code: 'ARSIP PBB #03 • PETA JALAN GLOBAL',
+                title: 'Deklarasi & Platform Aksi Beijing (1995)',
+                body: 'Disepakati oleh 189 negara dalam Konferensi Dunia ke-4 tentang Perempuan, dokumen ini menetapkan 12 bidang kritis untuk menghapus hambatan kesetaraan gender di seluruh benua.',
+                impact: 'SKALA: 189 NEGARA PENANDATANGAN'
+            },
+            {
+                code: 'ARSIP PBB #04 • STANDAR PEKERJA',
+                title: 'Konvensi ILO No. 100 & No. 190',
+                body: 'Organisasi Buruh Internasional (ILO) menyatukan negara-negara untuk menjamin upah yang sama bagi pekerjaan bernilai sama serta menghapus kekerasan dan pelecehan di dunia kerja.',
+                impact: 'SKALA: 187 NEGARA ANGGOTA ILO'
+            }
+        ];
+
+        let currentFactIndex = 0;
+        const printFactBtn = document.getElementById('printFactBtn');
+        const teleprinterSlip = document.getElementById('teleprinterSlip');
+
+        printFactBtn.addEventListener('click', () => {
+            currentFactIndex = (currentFactIndex + 1) % multilateralFacts.length;
+            const item = multilateralFacts[currentFactIndex];
+
+            teleprinterSlip.classList.remove('printing');
+            void teleprinterSlip.offsetWidth;
+            teleprinterSlip.classList.add('printing');
+
+            document.getElementById('slipCode').textContent = item.code;
+            document.getElementById('slipTitle').textContent = item.title;
+            document.getElementById('slipBody').textContent = item.body;
+            document.getElementById('slipImpact').textContent = item.impact;
+            document.getElementById('factCounter').textContent = (currentFactIndex + 1) + '/4';
+        });
+
+        const ashContainer = document.getElementById('ashContainer');
+        for (let i = 0; i < 45; i++) {
+            const ash = document.createElement('div');
+            const isEmber = Math.random() < 0.25;
+            ash.classList.add('ash-particle', isEmber ? 'ember' : 'flake');
+
+            const size = isEmber ? (Math.random() * 4 + 2) : (Math.random() * 6 + 3);
+            ash.style.width = size + 'px';
+            ash.style.height = (size * (Math.random() * 0.6 + 0.5)) + 'px';
+            ash.style.left = (Math.random() * 100) + 'vw';
+            ash.style.animationDuration = (Math.random() * 6 + 5) + 's';
+            ash.style.animationDelay = (Math.random() * 8) + 's';
+            ashContainer.appendChild(ash);
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+.bib-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.bib-filter-btn {
+    padding: 9px 15px;
+    background: #181818;
+    color: #f0ede5;
+    border: 2px solid #f0ede5;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.bib-filter-btn:hover {
+    transform: translateY(-2px);
+}
+
+.bib-filter-btn.active {
+    background: #9e1b1b;
+    color: #f0ede5;
+    border-color: #ffffff;
+}
+
+.bib-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.bib-card {
+    padding: 22px 26px;
+    background: #161616;
+    border: 2px solid rgba(240, 237, 229, 0.45);
+    border-left: 8px solid #f0ede5;
+    border-radius: 14px;
+    box-shadow: 5px 5px 0 #000;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.bib-card:hover {
+    transform: translateX(4px);
+    border-color: #f0ede5;
+    border-left-color: #9e1b1b;
+}
+
+.bib-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.copy-cite-btn {
+    padding: 6px 12px;
+    background: #111;
+    color: #f0ede5;
+    border: 1px solid #f0ede5;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.copy-cite-btn:hover {
+    background: #9e1b1b;
+}
+
+.copy-cite-btn.copied {
+    background: #f0ede5;
+    color: #111;
+}
+
+.citation-text {
+    color: #e9e5d9 !important;
+    font-size: 14px;
+    line-height: 1.85;
+    padding-left: 28px;
+    text-indent: -28px;
+    margin: 0;
+}
+
+.citation-text em {
+    font-style: italic;
+    color: #f2c230;
+}
+
+.citation-text a {
+    color: #f0ede5;
+    text-decoration: underline;
+    word-break: break-all;
+}
+
+.citation-text a:hover {
+    color: #f2c230;
+}
